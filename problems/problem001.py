@@ -1,3 +1,4 @@
+# 반복문에 의한 계산
 def func1(max):
     sum = 0
     for i in range(1, max):

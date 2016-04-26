@@ -1,3 +1,4 @@
+# 반복문에 의한 계산
 def func1(max):
     x, y, n = 1, 2, 1 + 2
     i = 3
@@ -15,6 +16,7 @@ def func1(max):
     return sum
 
 
+# 수열의 공식에 의한 계산
 def func2(x, y, L):
     while y < L:
         x, y = y, 4 * y + x
